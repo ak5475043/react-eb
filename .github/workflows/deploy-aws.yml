@@ -21,7 +21,7 @@ jobs:
           aws_secret_key: vTTHFOwN1LuJscDji8+lAJL7vW81WGRjD9eX6nAX
           application_name: react-eb
           environment_name: Reacteb-env
-          version_label: 12345
+          version_label: ${{ github.sha }}
           existing_bucket_name: elasticbeanstalk-us-east-1-501319886834
           region: us-east-1
           deployment_package: deploy.zip
